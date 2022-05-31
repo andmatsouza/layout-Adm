@@ -91,63 +91,77 @@
 
     <!--Início do conteúdo-->
     <div class="content">
-        <!--Início da sidebar-->
-        <div class="sidebar">
-            <a href="index.html" class="sidebar-nav"><i class=" icon fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+      <!--Início da sidebar-->
+      <div class="sidebar">
+        <a href="index.html" class="sidebar-nav"
+          ><i class="icon fas fa-tachometer-alt"></i><span>Dashboard</span></a
+        >
 
-            <a href="listar.html" class="sidebar-nav active"><i class="icon fas fa-users"></i><span>Listar</span></a>
+        <a href="listar.html" class="sidebar-nav active"
+          ><i class="icon fas fa-users"></i><span>Listar</span></a
+        >
 
-            <a href="login.html" class="sidebar-nav"><i class="icon fas fa-sign-out-alt"></i><span>Sair</span></a>
-        </div>
+        <a href="login.html" class="sidebar-nav"
+          ><i class="icon fas fa-sign-out-alt"></i><span>Sair</span></a
+        >
+      </div>
 
-        <!--Conteúdo do ADM-->
-        <div class="wrapper">
-          <div class="row">
-            <div class="top-list">
-              <span class="title-content">Listar</span>
-              <div class="top-list-right">
-                Botão
-              </div>
+      <!--Conteúdo do ADM-->
+      <div class="wrapper">
+        <div class="row">
+          <div class="top-list">
+            <span class="title-content">Listar</span>
+            <div class="top-list-right">
+              <button type="button" class="btn-success">Cadastrar</button>
             </div>
+          </div>
 
-            <table class="table-list">
-              <thead class="list-head">
-                <tr>
-                  <th class="list-head-content">ID</th>
-                  <th class="list-head-content">Nome</th>
-                  <th class="list-head-content">E-mail</th>
-                  <th class="list-head-content">Ações</th>
-                </tr>
-              </thead>
-              <tbody class="list-body">
-                <tr>
-                  <td class="list-body-content">1</td>
-                  <td class="list-body-content">Anderson</td>
-                  <td class="list-body-content">andmatsou@gmail.com</td>
-                  <td class="list-body-content">Visualizar Editar Apgar</td>
-                </tr>
+          <table class="table-list">
+            <thead class="list-head">
+              <tr>
+                <th class="list-head-content">ID</th>
+                <th class="list-head-content">Nome</th>
+                <th class="list-head-content">E-mail</th>
+                <th class="list-head-content">Ações</th>
+              </tr>
+            </thead>
+            <tbody class="list-body">
+              <tr>
+                <td class="list-body-content">1</td>
+                <td class="list-body-content">Anderson</td>
+                <td class="list-body-content">andmatsou@gmail.com</td>
+                <td class="list-body-content">
+                  <button type="button" class="btn-primary">Visualizar</button>
+                  <button type="button" class="btn-warning">Editar</button>
+                  <button type="button" class="btn-danger">Apgar</button>
+                </td>
+              </tr>
 
-                <tr>
-                  <td class="list-body-content">2</td>
-                  <td class="list-body-content">Marcia</td>
-                  <td class="list-body-content">telelimp@telelimp.com.br</td>
-                  <td class="list-body-content">Visualizar Editar Apgar</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="content-pagination">
-              <div class="pagination">
-                <a href="#">&laquo;</a>
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#" class="active">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">&raquo;</a>
-              </div>
+              <tr>
+                <td class="list-body-content">2</td>
+                <td class="list-body-content">Marcia</td>
+                <td class="list-body-content">telelimp@telelimp.com.br</td>
+                <td class="list-body-content">
+                  <button type="button" class="btn-primary">Visualizar</button>
+                  <button type="button" class="btn-warning">Editar</button>
+                  <button type="button" class="btn-danger">Apgar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="content-pagination">
+            <div class="pagination">
+              <a href="#">&laquo;</a>
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <a href="#" class="active">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#">&raquo;</a>
             </div>
           </div>
         </div>
+      </div>
     </div>
 
     <script src="js/custom_adm.js"></script>
