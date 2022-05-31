@@ -538,6 +538,8 @@ body {
   display: block;
 }
 
+/*Formulário*/
+
 .wrapper .content-adm {  
   width: 100%;
   padding: 10px;
@@ -582,3 +584,25 @@ textarea.input-adm:focus {
   border-color: var(--site-color);
 }
 
+/*Visualizar*/
+
+.content-adm .view-det-adm {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.view-det-adm .view-adm-title {
+  width: 80px;
+  color: var(--fourth-bg-color);
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.view-det-adm .view-adm-info {
+  width: 100%;
+  color: var(--second-bg-color);
+  font-size: 15px;
+  padding: 3px 10px;
+}
