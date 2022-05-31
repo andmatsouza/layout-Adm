@@ -13,6 +13,143 @@
     <title>Adm - Telelimp</title>
   </head>
   <body>
-    <h1>Listar</h1>
+    <!--Início NavBar-->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <div class="bars">
+          <i class="fas fa-bars"></i>
+        </div>
+        <img src="images/logo_telelimp.png" alt="telelimp" class="logo" />
+      </div>
+
+      <div class="navbar-content">
+        <div class="notification">
+          <i class="fas fa-bell"></i>
+          <span class="number">7</span>
+          <div class="dropdown-menu">
+            <div class="dropdown-content">
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+              <li>
+                <img src="images/user.png" alt="Usuário" />
+                <div class="text">
+                  Sed nisl elit, eleifend vel elit nec, tempus aliquet eros.
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+
+        <div class="avatar">
+          <img src="images/user.png" alt="Usuário" />
+          <div class="dropdown-menu setting">
+            <div class="item"><span class="fas fa-user"></span> Perfil</div>
+            <div class="item">
+              <span class="fas fa-cog"></span> Configuração
+            </div>
+            <div class="item">
+              <span class="fas fa-sign-out-alt"></span> Sair
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Início do conteúdo-->
+    <div class="content">
+        <!--Início da sidebar-->
+        <div class="sidebar">
+            <a href="index.html" class="sidebar-nav"><i class=" icon fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+
+            <a href="listar.html" class="sidebar-nav active"><i class="icon fas fa-users"></i><span>Listar</span></a>
+
+            <a href="login.html" class="sidebar-nav"><i class="icon fas fa-sign-out-alt"></i><span>Sair</span></a>
+        </div>
+
+        <!--Conteúdo do ADM-->
+        <div class="wrapper">
+          <div class="row">
+            <div class="top-list">
+              <span class="title-content">Listar</span>
+              <div class="top-list-right">
+                Botão
+              </div>
+            </div>
+
+            <table class="table-list">
+              <thead class="list-head">
+                <tr>
+                  <th class="list-head-content">ID</th>
+                  <th class="list-head-content">Nome</th>
+                  <th class="list-head-content">E-mail</th>
+                  <th class="list-head-content">Ações</th>
+                </tr>
+              </thead>
+              <tbody class="list-body">
+                <tr>
+                  <td class="list-body-content">1</td>
+                  <td class="list-body-content">Anderson</td>
+                  <td class="list-body-content">andmatsou@gmail.com</td>
+                  <td class="list-body-content">Visualizar Editar Apgar</td>
+                </tr>
+
+                <tr>
+                  <td class="list-body-content">2</td>
+                  <td class="list-body-content">Marcia</td>
+                  <td class="list-body-content">telelimp@telelimp.com.br</td>
+                  <td class="list-body-content">Visualizar Editar Apgar</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="content-pagination">
+              <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#" class="active">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">&raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/custom_adm.js"></script>
   </body>
 </html>
